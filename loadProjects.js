@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const projects = [
         { title: "Project 1", file: "projects/project1.html", description: "Brief description of Project 1." },
         { title: "Project 2", file: "projects/project2.html", description: "Brief description of Project 2." },
-        { title: "IED Project", file: "projects/project3.html", description: "Brief description of Project 3." },
+        { title: "IED Project", file: "project/IED_Project.html", description: "Brief description of Project 3." },
         // Add more projects as needed
     ];
 
