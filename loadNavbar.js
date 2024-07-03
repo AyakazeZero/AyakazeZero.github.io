@@ -10,6 +10,13 @@ document.addEventListener("DOMContentLoaded", function() {
             .then(response => response.text())
             .then(data => {
                 navbarPlaceholder.innerHTML = data;
+
+                // Update the href attributes of the navbar links
+                const links = navbarPlaceholder.querySelectorAll('a.nav-link');
+                links.forEach(link => {
+                    let href = link.getAttribute('href');
+                    link.setAttribute('href', '../'.repeat(depth) + href);
+                });
             })
             .catch(error => console.error('Error loading the navbar:', error));
     }
