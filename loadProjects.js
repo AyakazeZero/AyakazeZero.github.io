@@ -2,7 +2,12 @@ document.addEventListener("DOMContentLoaded", function() {
     const projects = [
         { title: "Project 1", file: "projects/project1.html", description: "Brief description of Project 1." },
         { title: "Project 2", file: "projects/project2.html", description: "Brief description of Project 2." },
-        { title: "IED Project", file: "project/IED_Project.html", description: "Brief description of Project 3." },
+        
+        { title: "IED Project", 
+         file: "project/IED_Project.html", 
+         description: "As part of our module assessment, we are required to do a project along with my group members. \
+             The project is about UNSDG 11 and we are required to use an Arduino Uno and 3D printing to solve the problem." 
+        },
         // Add more projects as needed
     ];
 
